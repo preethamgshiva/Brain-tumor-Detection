@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.selected-item-gender:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.logout-button{
+    padding: 10px;
+    width: 100px;
+    height: 2vh;
+    float: right;
+    justify-content: space-between;
+}
+
+.formdiv{
+    text-align: left;
+}
+
+.main-head{
+    font-size: 30px;
+}
+.sec-head{
+    font-size: 15px;
+}
